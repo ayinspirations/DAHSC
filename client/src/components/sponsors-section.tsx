@@ -13,10 +13,10 @@ export default function SponsorsSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6" data-testid="sponsors-title">
-            Unsere Sponsoren
+            Unsere Partner
           </h2>
           <p className="text-xl text-muted-foreground" data-testid="sponsors-description">
-            Werden Sie Teil dieser starken Partnerfamilie
+            Werden Sie Teil dieser starken Partnerfamilie.
           </p>
         </div>
         
@@ -24,7 +24,7 @@ export default function SponsorsSection() {
           {sponsors.map((sponsor, index) => (
             <Card 
               key={index}
-              className="p-8 shadow-md hover:shadow-xl transition-shadow duration-300 flex items-center justify-center h-32"
+              className="p-8 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center h-32 bg-white border-0"
               data-testid={`sponsor-card-${index}`}
             >
               <div className="text-2xl font-bold text-muted-foreground" data-testid={`sponsor-name-${index}`}>

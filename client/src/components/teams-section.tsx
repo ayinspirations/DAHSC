@@ -35,23 +35,23 @@ export default function TeamsSection() {
   const teamInfo = [
     {
       icon: Hotel,
-      title: "Partnerhotels",
-      description: "Exklusive Konditionen für teilnehmende Teams"
+      title: "Hotels & Unterkünfte",
+      description: "Partnerhotels mit exklusiven Konditionen"
     },
     {
       icon: Calendar,
       title: "Ablaufplan",
-      description: "Fr: Anreise\nSa/So: Spiele\nSo: Abreise"
+      description: "Detaillierter Zeitplan für das Turnierwochenende"
     },
     {
       icon: Users,
       title: "Gruppenübersicht",
-      description: "8 Gruppen mit Sponsorennamen (folgt)"
+      description: "8 Gruppen mit allen teilnehmenden Teams"
     },
     {
       icon: HelpCircle,
       title: "FAQ",
-      description: "Anreise & Verpflegung Informationen"
+      description: "Häufige Fragen zu Anreise & Verpflegung"
     }
   ];
 
@@ -70,7 +70,7 @@ export default function TeamsSection() {
             return (
               <Card 
                 key={index}
-                className="p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 bg-white border-0"
                 data-testid={`team-info-card-${index}`}
               >
                 <div className="text-center">
@@ -90,10 +90,10 @@ export default function TeamsSection() {
         <div className="text-center mt-12">
           <Button 
             onClick={handleTeamInfoDownload}
-            className="bg-primary text-primary-foreground px-12 py-4 text-xl font-bold hover:bg-gray-800 transition-all duration-300 shadow-lg"
+            className="bg-primary text-primary-foreground px-12 py-4 text-xl font-bold hover:bg-gray-800 transition-all duration-300 shadow-lg rounded-xl"
             data-testid="button-team-download"
           >
-            Team-Infos herunterladen
+            Zu den Team-Infos
           </Button>
         </div>
       </div>

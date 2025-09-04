@@ -23,10 +23,13 @@ export default function EmotionsSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6" data-testid="emotions-title">
-            Emotionen
+            Emotionen, die bleiben
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="emotions-description">
-            Ihre Marke wird nicht nur gesehen – sie wird erlebt.
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto mb-4" data-testid="emotions-description">
+            Der DAHSC 2026 verbindet Spitzenfußball, Gänsehaut-Momente und unvergessliche Emotionen. Ihre Marke wird nicht nur gesehen – sie wird erlebt.
+          </p>
+          <p className="text-lg text-primary font-bold" data-testid="emotions-hashtag">
+            #DAHSC2026
           </p>
         </div>
         
@@ -36,7 +39,7 @@ export default function EmotionsSection() {
               key={index}
               src={image.src} 
               alt={image.alt}
-              className="w-full h-48 object-cover shadow-md hover:shadow-xl transition-shadow duration-300 rounded"
+              className="w-full h-48 object-cover shadow-sm hover:shadow-md transition-all duration-300 rounded-xl"
               data-testid={`gallery-image-${index}`}
             />
           ))}

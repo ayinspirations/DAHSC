@@ -105,12 +105,15 @@ export default function ContactSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6" data-testid="contact-title">
-            Kontakt
+            Jetzt Sponsor werden
           </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="contact-description">
+            Interessiert an einer Partnerschaft? Schreiben Sie uns – wir melden uns mit individuellen Sponsoring-Möglichkeiten.
+          </p>
         </div>
         
         <div className="max-w-2xl mx-auto">
-          <Card className="p-8 shadow-lg">
+          <Card className="p-8 rounded-2xl shadow-md bg-white border-0">
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -186,19 +189,19 @@ export default function ContactSection() {
                 <Button 
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-primary text-primary-foreground px-12 py-4 text-xl font-bold hover:bg-gray-800 transition-all duration-300 shadow-lg"
+                  className="bg-primary text-primary-foreground px-12 py-4 text-xl font-bold hover:bg-gray-800 transition-all duration-300 shadow-lg rounded-xl"
                   data-testid="button-submit"
                 >
-                  {isSubmitting ? "Wird gesendet..." : "Jetzt Sponsor werden"}
+                  {isSubmitting ? "Wird gesendet..." : "Nachricht senden"}
                 </Button>
                 <Button 
                   type="button"
                   variant="outline"
                   onClick={handleSponsorMaterialsDownload}
-                  className="border-2 border-primary text-primary px-12 py-4 text-xl font-bold hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                  className="border-2 border-primary text-primary px-12 py-4 text-xl font-bold hover:bg-primary hover:text-primary-foreground transition-all duration-300 rounded-xl"
                   data-testid="button-pdf-download"
                 >
-                  Sponsorenmappe PDF-Download
+                  Sponsorenmappe herunterladen
                 </Button>
               </div>
             </form>
@@ -214,9 +217,14 @@ export default function ContactSection() {
             <p className="text-gray-300 mb-4" data-testid="footer-subtitle">
               Deutscher Altherren Supercup Ü32
             </p>
-            <p className="text-gray-400" data-testid="footer-date">
+            <p className="text-gray-400 mb-6" data-testid="footer-date">
               12.-13. Juni 2026 • SKV Rutesheim
             </p>
+            <div className="flex justify-center space-x-6 text-sm text-gray-400">
+              <a href="#" className="hover:text-gray-300 transition-colors" data-testid="footer-impressum">Impressum</a>
+              <a href="#" className="hover:text-gray-300 transition-colors" data-testid="footer-datenschutz">Datenschutz</a>
+              <a href="#" className="hover:text-gray-300 transition-colors" data-testid="footer-instagram">Instagram</a>
+            </div>
           </div>
         </div>
       </footer>

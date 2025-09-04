@@ -14,22 +14,23 @@ export default function SponsoringSection() {
     {
       image: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
       alt: "Professional footballer with trophy",
-      title: "Auslosung mit Ex-Nationalspieler Cacau",
+      title: "Die große Auslosung mit Cacau",
       features: [
-        "Gruppensponsoring & Namensrechte",
-        "Sponsorentafel & Mikrofon",
-        "Social Media Präsenz"
+        "Namensrechte für Gruppen",
+        "Sponsorentafel & Mikrofon-Branding",
+        "Offizielle Erwähnungen & Social Media Integration"
       ]
     },
     {
       image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
       alt: "Football tournament action",
-      title: "Turnierwochenende 12.–13. Juni 2026",
+      title: "Turnierwochenende (12.–13. Juni 2026)",
       features: [
-        "Vollständiges Branding (Banner, Beachflags)",
-        "200.000+ Instagram Views",
-        "Livestream & Highlight-Videos",
-        "VIP-Bereich & Promotion-Stände"
+        "Branding vor Ort: Banner, Beachflags, Stadionheft, Turnierplan",
+        "200.000+ Social Media Views (Instagram-Reichweite beim letzten Turnier)",
+        "Livestream & Highlight-Videos mit Sponsorenlogo",
+        "VIP-Bereich, Promotion-Stände",
+        "Interviewwand & Mikrofon-Sponsoring"
       ]
     },
     {
@@ -37,9 +38,10 @@ export default function SponsoringSection() {
       alt: "Team celebration with trophy",
       title: "Siegerehrung & Abendveranstaltung mit DJ Robin",
       features: [
-        "Pokale & Bühnenbranding",
-        "Aftermovie & Social Clips",
-        "Moderation & Interviews"
+        "Branding auf Pokalen, Medaillen, Bühnenhintergrund",
+        "Erwähnungen durch Moderation",
+        "Aftermovies & Social Clips mit Sponsorenlogo",
+        "Emotionale Markenbindung bei Siegerehrung & Party"
       ]
     }
   ];
@@ -51,19 +53,22 @@ export default function SponsoringSection() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6" data-testid="sponsoring-title">
             Ihre Marke im Rampenlicht
           </h2>
+          <p className="text-xl text-muted-foreground" data-testid="sponsoring-subtitle">
+            Drei Event-Highlights – Ihre Bühne für starke Markenbotschaften
+          </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           {sponsorshipHighlights.map((highlight, index) => (
             <Card 
               key={index}
-              className="p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="p-8 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 bg-white border-0"
               data-testid={`sponsoring-card-${index}`}
             >
               <img 
                 src={highlight.image} 
                 alt={highlight.alt}
-                className="w-full h-48 object-cover mb-6 shadow-md rounded"
+                className="w-full h-48 object-cover mb-6 shadow-sm rounded-xl"
                 data-testid={`sponsoring-image-${index}`}
               />
               
@@ -87,9 +92,12 @@ export default function SponsoringSection() {
         </div>
 
         <div className="text-center mt-12">
+          <p className="text-lg text-muted-foreground mb-6 max-w-3xl mx-auto" data-testid="sponsoring-cta-text">
+            Nutzen Sie dieses Event, um Ihre Marke emotional, authentisch und direkt erlebbar zu machen.
+          </p>
           <Button 
             onClick={scrollToContact}
-            className="bg-primary text-primary-foreground px-12 py-4 text-xl font-bold hover:bg-gray-800 transition-all duration-300 shadow-lg"
+            className="bg-primary text-primary-foreground px-12 py-4 text-xl font-bold hover:bg-gray-800 transition-all duration-300 shadow-lg rounded-xl"
             data-testid="button-sponsoring-inquiry"
           >
             Sponsoring anfragen

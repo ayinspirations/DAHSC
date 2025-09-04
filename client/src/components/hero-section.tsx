@@ -27,7 +27,7 @@ export default function HeroSection() {
           Ein Turnier der Extraklasse
         </h2>
         <p className="text-xl md:text-2xl mb-8 text-gray-200" data-testid="hero-description">
-          40 Teams. 800+ Spieler. 5000+ Besucher. Ihre Marke im Rampenlicht.
+          40 Teams. Über 800 Spieler. 5000+ Besucher. 200.000+ Social Media Views – Ihre Marke im Rampenlicht.
         </p>
         
         <div className="flex flex-col md:flex-row gap-4 justify-center">

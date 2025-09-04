@@ -1,0 +1,88 @@
+1. Hero-Sektion
+	•	Headline:
+👉 „DAHSC 2026 – Ein Turnier der Extraklasse“
+	•	Subline:
+👉 „40 Teams. Über 800 Spieler. 5000+ Besucher. 200.000+ Social Media Views – Ihre Marke im Rampenlicht.“
+	•	Buttons:
+	•	„Jetzt Sponsor werden“
+	•	„Infos für Teams“
+	•	Hintergrund: Platzhalterbild (Fußball / Stadion / Sportpark)
+
+⸻
+
+2. Turnier-Sektion
+	•	Überschrift: „Das Turnier in Zahlen“
+	•	Kacheln:
+	•	40 Teams
+	•	800+ Spieler
+	•	5000+ Besucher
+	•	8 Gruppen – jede Gruppe sponsorbar
+	•	Text:
+👉 „Am 12.–13. Juni 2026 verwandelt sich der Sportpark Rutesheim in die Bühne für den Deutschen Altherren Supercup Ü32 (DAHSC). Landesmeister, Titelverteidiger und Teams aus der ewigen Bestenliste kämpfen um den Titel. Gastgeber ist die SKV Rutesheim – ein Traditionsverein mit über 1000 Mitgliedern und einer modernen Anlage.“
+
+⸻
+
+3. Sponsoring-Sektion
+	•	Überschrift: „Ihre Marke im Rampenlicht“
+	•	Unterzeile: „Drei Event-Highlights – Ihre Bühne für starke Markenbotschaften“
+
+1. Die große Auslosung mit Cacau
+	•	Namensrechte für Gruppen
+	•	Sponsorentafel & Mikrofon-Branding
+	•	Offizielle Erwähnungen & Social Media Integration
+
+2. Turnierwochenende (12.–13. Juni 2026)
+	•	Branding vor Ort: Banner, Beachflags, Stadionheft, Turnierplan
+	•	200.000+ Social Media Views (Instagram-Reichweite beim letzten Turnier)
+	•	Livestream & Highlight-Videos mit Sponsorenlogo
+	•	VIP-Bereich, Promotion-Stände
+	•	Interviewwand & Mikrofon-Sponsoring
+
+3. Siegerehrung & Abendveranstaltung mit DJ Robin
+	•	Branding auf Pokalen, Medaillen, Bühnenhintergrund
+	•	Erwähnungen durch Moderation
+	•	Aftermovies & Social Clips mit Sponsorenlogo
+	•	Emotionale Markenbindung bei Siegerehrung & Party
+	•	CTA-Text:
+👉 „Nutzen Sie dieses Event, um Ihre Marke emotional, authentisch und direkt erlebbar zu machen.“
+	•	Button: „Sponsoring anfragen“
+
+⸻
+
+4. Teams-Sektion
+
+👉 Eigenes Menü/Unterseiten → bleibt auf Landing Page nur als Übersichts-Link:
+	•	„Hotels & Unterkünfte“
+	•	„Ablaufplan“
+	•	„Gruppenübersicht“
+	•	„FAQ“
+	•	Button: „Zu den Team-Infos“
+
+⸻
+
+5. Emotionen-Sektion
+	•	Überschrift: „Emotionen, die bleiben“
+	•	Text:
+👉 „Der DAHSC 2026 verbindet Spitzenfußball, Gänsehaut-Momente und unvergessliche Emotionen. Ihre Marke wird nicht nur gesehen – sie wird erlebt.“
+	•	Elemente: Galerie (Platzhalterbilder), Social Media Clips
+	•	Hashtag: #DAHSC2026
+
+⸻
+
+6. Sponsoren-Sektion
+	•	Überschrift: „Unsere Partner“
+	•	Logos: Platzhalter (Sponsor 1, 2, 3 …)
+	•	Text:
+👉 „Werden Sie Teil dieser starken Partnerfamilie.“
+
+⸻
+
+7. Kontakt-Sektion
+	•	Überschrift: „Jetzt Sponsor werden“
+	•	Text vor Formular:
+👉 „Interessiert an einer Partnerschaft? Schreiben Sie uns – wir melden uns mit individuellen Sponsoring-Möglichkeiten.“
+	•	Formular-Felder: Name, Firma, E-Mail, Nachricht
+	•	Buttons:
+	•	„Nachricht senden“ (Haupt-CTA)
+	•	„Sponsorenmappe herunterladen“ (Zweite Option)
+	•	Footer: Impressum, Datenschutz, Instagram-Link
