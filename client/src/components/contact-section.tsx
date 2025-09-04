@@ -213,7 +213,7 @@ export default function ContactSection() {
       <footer className="bg-primary text-primary-foreground py-12 mt-20">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <div className="text-3xl font-bold mb-4" data-testid="footer-logo">DAHSC 2026</div>
+            <div className="text-3xl font-bold mb-4" data-testid="footer-logo">SKV Rutesheim - DAHSC 2026</div>
             <p className="text-gray-300 mb-4" data-testid="footer-subtitle">
               Deutscher Altherren Supercup Ü32
             </p>

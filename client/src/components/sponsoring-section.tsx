@@ -12,8 +12,8 @@ export default function SponsoringSection() {
 
   const sponsorshipHighlights = [
     {
-      image: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
-      alt: "Professional footballer with trophy",
+      image: "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+      alt: "Football goalkeeper in action",
       title: "Die große Auslosung mit Cacau",
       features: [
         "Namensrechte für Gruppen",
@@ -22,8 +22,8 @@ export default function SponsoringSection() {
       ]
     },
     {
-      image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
-      alt: "Football tournament action",
+      image: "https://images.unsplash.com/photo-1487466365202-1afdb86c764e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+      alt: "Football players competing for ball",
       title: "Turnierwochenende (12.–13. Juni 2026)",
       features: [
         "Branding vor Ort: Banner, Beachflags, Stadionheft, Turnierplan",
@@ -34,8 +34,8 @@ export default function SponsoringSection() {
       ]
     },
     {
-      image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
-      alt: "Team celebration with trophy",
+      image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600",
+      alt: "Football trophy ceremony",
       title: "Siegerehrung & Abendveranstaltung mit DJ Robin",
       features: [
         "Branding auf Pokalen, Medaillen, Bühnenhintergrund",

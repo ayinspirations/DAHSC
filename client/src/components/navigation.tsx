@@ -19,7 +19,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-primary-foreground font-bold text-2xl" data-testid="logo">DAHSC</div>
+            <div className="text-primary-foreground font-bold text-2xl" data-testid="logo">SKV - DAHSC</div>
           </div>
           
           {/* Desktop Menu */}
